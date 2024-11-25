@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e7e7e7;
+  color: #333;
+}
+
+.header {
+  background-color: #000000;
+  color: yellow;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo {
+  width: 100px;
+}
+
+#menuhamburguesa {
+  color: #ffffff;
+}
+
+.perfil-btn {
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* Slider */
+.promo-slider {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+}
+
+.promo-slide {
+  display: none;
+  text-align: center;
+  background-color: #d41a1a;
+  color: white;
+}
+
+.promo-slide.active {
+  display: block;
+}
+
+.promo-img {
+  width: 100%;
+  max-width: 300px;
+}
+
+.promo-texto h1 {
+  font-size: 48px;
+}
+
+.promo-texto p {
+  font-size: 24px;
+}
+
+/* Descuentos con desplazamiento horizontal */
+.descuentos {
+  padding: 20px;
+  text-align: center;
+}
+
+.tarjetas-descuento {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+  scroll-behavior: smooth;
+  white-space: nowrap;
+}
+
+.tarjeta {
+  background: #000000;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  width: 250px;
+  height: 185px;
+  flex: none;
+
+}
+
+.pizzas {
+  border: 1px;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 3px;
+  margin-top: 75px;
+  width: 80px;
+  height: 30px;
+}
+
+.empanadas {
+  border: 1px;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 3px;
+  width: 80px;
+  height: 30px;
+}
+
+.promopizza {
+  margin-right: 160px; 
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.conos {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.conos-img {
+  width: 350px;
+  border-radius: 10px;
+}
+
+footer {
+  background-image: linear-gradient(to bottom, #303030, #353535, #3a3a3a, #3f3f3f, #444444);
+  padding: 10px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  color: #000000;
+}
+
+.menu-item {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.menu-item.activo {
+  font-weight: bold;
+}
+
+#historial {
+  color: #ddcbaf;
+}
+
+.navbar-toggler {
+  border: none;
+  font-size: 1.25rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
